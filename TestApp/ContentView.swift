@@ -21,7 +21,9 @@ struct ContentView: View {
                 .foregroundColor(Color.orange)
             
         }
-        .padding()
+        .padding(20)
+        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(hue: 0.101, saturation: 0.285, brightness: 0.904, opacity: 0.357)/*@END_MENU_TOKEN@*/)
+        
         
     }
 }
