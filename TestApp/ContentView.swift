@@ -12,10 +12,17 @@ struct ContentView: View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
+                .foregroundColor(.orange)
             Text("Hello, world!")
+                .font(.title)
+                .fontWeight(.bold)
+                .padding()
+            Text("First time creating a Xcode project")
+                .foregroundColor(Color.orange)
+            
         }
         .padding()
+        
     }
 }
 
